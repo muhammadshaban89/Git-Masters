@@ -126,13 +126,14 @@ Examples:
 | Branching | Harder | Very easy |
 | Examples | SVN, CVS | Git, Mercurial |
 
-Thanks:
-
-👉Follow my LinkdIn Profile: www.linkedin.com/in/muhammad-shaban-45577719a
 
 **In Simple Words**
 - **SCM** = managing code changes  
 - **VCS** = tool that does SCM  
 - **CVCS** = one central repo  
-- **DVCS** = every developer has full repo (Git)  
+- **DVCS** = every developer has full repo (Git)
+
+Thanks:
+
+👉Follow my LinkdIn Profile: www.linkedin.com/in/muhammad-shaban-45577719a
 

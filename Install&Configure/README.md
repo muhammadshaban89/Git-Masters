@@ -26,7 +26,7 @@ git --version
 
 **2. Configure Git (Required Before First Commit)**
 
-Set your identity (stored globally):
+A): Set your identity (stored globally):
 
 ```bash
 git config --global user.name "Muhammad"
@@ -47,7 +47,7 @@ git config --global user.email "you@example.com"
 
 • 	Contributions appear in your GitHub graph
 
-Check your config:
+B): Check your config:
 
 ```bash
 git config --list

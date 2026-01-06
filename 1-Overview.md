@@ -59,7 +59,9 @@ Examples:
 - SVN  
 - Mercurial  
 - CVS
-- There are two types of **VCS: Centralized (one main server) and Distributed**(every developer has a full copy).
+- There are two types of
+    -  **VCS: Centralized (one main server) 
+    -   Distributed**(every developer has a full copy).
 
 **1:Centralized Version Control System (CVCS)**
   

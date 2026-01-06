@@ -32,6 +32,20 @@ Set your identity (stored globally):
 git config --global user.name "Muhammad"
 git config --global user.email "you@example.com"
 ```
+- This helps:
+
+• 	Tracking who made which change.
+
+• 	Accountability in teams.
+
+• 	Clear audit trail.
+
+- Your commits are linked to your online identity.
+- If your email matches your GitHub account:
+
+• 	Your commits show your profile picture.
+
+• 	Contributions appear in your GitHub graph
 
 Check your config:
 

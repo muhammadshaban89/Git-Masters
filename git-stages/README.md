@@ -77,6 +77,12 @@ git commit -m "message"
 | Staging Area | Prepare files | `git add`, `git reset` |
 | Repository | Save history | `git commit`, `git log` |
 
+**Color Scheme for Git Stages**
+
+• 	Red = danger/unsaved
+• 	Yellow = review/wait
+• 	Green = safe/complete
+
 
 Thanks:
 

@@ -26,7 +26,8 @@ so:
 - This led to the creation of the first generation of Version Control Systems.
 
 
-**Source Code Management (SCM)**
+Source Code Management (SCM)
+-----------------------------
 
 - is the overall practice of tracking and managing code changes.
 - SCM refers to the **process and tools** used to manage source code changes during software development.
@@ -39,7 +40,9 @@ so:
 - Stores history  
 - Supports branching and merging
 
-**Version Control System (VCS)** 
+Version Control System (VCS)
+----------------------------
+
 - A Version Control System is a software tool that tracks changes to files over time.
 - It allows developers to record versions, compare changes, collaborate, and restore previous states.
 - A VCS is the **software tool** that performs SCM tasks.

@@ -88,7 +88,7 @@ Developer → Central Server → Repository
 - CVS  
 - Perforce
 
-**2"Distributed Version Control System (DVCS)**  
+**2:Distributed Version Control System (DVCS)**  
 
 - A distributed system gives **every developer a full copy of the repository**, including full history.
 

@@ -79,9 +79,11 @@ git commit -m "message"
 
 **Color Scheme for Git Stages**
 
-• 	Red = danger/unsaved
-• 	Yellow = review/wait
-• 	Green = safe/complete
+• 	🟥Red = danger/unsaved
+
+• 	🟨Yellow = review/wait
+
+• 	🟩Green = safe/complete
 
 
 Thanks:

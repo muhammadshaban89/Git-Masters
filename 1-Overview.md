@@ -88,7 +88,7 @@ Developer → Central Server → Repository
 
 **2"Distributed Version Control System (DVCS)**  
 
--A distributed system gives **every developer a full copy of the repository**, including full history.
+- A distributed system gives **every developer a full copy of the repository**, including full history.
 
 **How DVCS works:**
 ```

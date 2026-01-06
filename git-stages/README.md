@@ -76,3 +76,8 @@ git commit -m "message"
 | Working Directory | Edit files | `git status`, `git diff` |
 | Staging Area | Prepare files | `git add`, `git reset` |
 | Repository | Save history | `git commit`, `git log` |
+
+
+Thanks:
+
+👉Follow my LinkdIn Profile: www.linkedin.com/in/muhammad-shaban-45577719a

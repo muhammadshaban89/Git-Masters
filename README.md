@@ -1,2 +1,2 @@
 # Git-Masters
-A Guide for Bingers to learn Git
+A Guide for beginners  to learn Git

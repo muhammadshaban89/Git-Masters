@@ -13,7 +13,6 @@ sudo dnf update -y
 ```
 
 - Step 2 — Install Git  
-According to LinuxTechi and GeeksforGeeks, the easiest method is using DNF:
 
 ```bash
 sudo dnf install git -y
@@ -143,4 +142,12 @@ git pull
 | Add remote | `git remote add origin URL` |
 | Push | `git push -u origin main` |
 | Pull | `git pull` |
+
+ **DevOps Git Workflow Diagram (Text Version)**
+ ```yaml
+Developer → Feature Branch → Commit → Push → Pull Request
+        → Code Review → Merge to Main → CI/CD Pipeline
+        → Build → Test → Deploy → GitOps Sync (K8s)
+
+```
 

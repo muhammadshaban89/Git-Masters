@@ -5,15 +5,20 @@ Overview:
 - There were no version control tools, and developers managed code manually.
 
 How developers worked:
+
 • 	Code was stored on punch cards, magnetic tapes, or floppy disks.
+
 • 	Developers kept manual backups of files.
+
 • 	Multiple versions were saved as:
 
     program_v1
     program_v2
     program_final
     program_final_final
+    
 so:    
+
 - Collaboration was extremely difficult.
 - If someone overwrote a file, the work was lost forever.
 - No history, no rollback, no branching.

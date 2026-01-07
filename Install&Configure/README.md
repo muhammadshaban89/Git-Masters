@@ -113,6 +113,10 @@ git log --oneline
 
 **8. Add Remote Repository (GitHub / GitLab)**
 
+- Adding a remote repository connects your local Git project to a central server (GitHub, GitLab, Bitbucket, etc.).
+- A remote repo turns Git from a local tool into a collaborative, automated, cloud-backed system.
+
+
 ```bash
 git remote add origin https://github.com/username/repo.git
 ```

@@ -146,6 +146,16 @@ git push
 ```bash
 git pull
 ```
+- inn case other devloper are pushing code on same repo, before push ,run folloing command.
+```bash
+git pull --rebase origin main
+```
+This will:
+
+-	Download remote commits
+- 	Reapply your local commits on top
+- 	
+If there are conflicts, Git will tell you.
 
 
 **Quick Reference Table**

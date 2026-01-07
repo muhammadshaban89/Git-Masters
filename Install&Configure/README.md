@@ -146,7 +146,7 @@ git push
 ```bash
 git pull
 ```
-- inn case other devloper are pushing code on same repo, before push ,run folloing command.
+- in case other devloper are pushing code on same repo, before push ,run folloing command.
 ```bash
 git pull --rebase origin main
 ```

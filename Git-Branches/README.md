@@ -47,6 +47,7 @@ Advantages of Using Branches
 
 
 **Limitations / Challenges of Branches**
+----------------------------------------
 
 - Branches are powerful, but they come with some considerations:
 
@@ -72,6 +73,7 @@ If branches are not deleted after merging, the repo becomes cluttered.
 
 
 **Important Points to Know About Branches**
+--------------------------------------------
 
 Here are the key concepts every developer should understand:
 

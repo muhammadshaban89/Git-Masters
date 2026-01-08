@@ -110,6 +110,121 @@ release/v1.2
 
 - Keeps the repo clean and avoids confusion.
 
+How Branches Work Internally (HEAD, refs, pointers)
+
+**Commit Graph (DAG)**
+
+Git is not a file system — it’s a **graph of commits**.
+
+Each commit points to its parent:
+
+```
+A <-- B <-- C <-- D
+```
+
+A branch is just a **pointer** to one commit.
+
+
+
+
+**What Is a Branch Internally?**
+
+A branch is literally a text file stored in:
+
+```
+.git/refs/heads/feature-login
+```
+
+Inside it:  
+```
+a1b2c3d4e5f6g7h8i9
+```
+
+That’s the commit hash.
+
+**What Is HEAD?**
+
+`HEAD` is a pointer to the branch you’re currently on.
+
+Example:
+
+```
+HEAD -> feature-login
+feature-login -> commit abc123
+```
+
+If you checkout a commit directly (detached HEAD):
+
+```
+HEAD -> abc123 (no branch)
+```
+
+---
+
+**Fast-Forward Merge**
+
+If `main` has no new commits, Git simply moves the pointer:
+
+```
+main: C → D
+```
+
+No merge commit needed.
+
+---
+
+**Merge Commit**
+
+If both branches diverged:
+
+```
+A - B - C (main)
+      \
+       D - E (feature)
+```
+
+Git creates a new commit:
+
+```
+F (merge commit)
+```
+
+---
+
+**Rebase (History Rewrite)**
+
+Rebase moves commits on top of another branch:
+
+```
+feature: D → E
+```
+
+becomes:
+
+```
+main: C
+feature: D' → E'
+```
+
+Cleaner history, but rewrites commit IDs.
+
+**Remote Branches**
+
+Remote branches live under:
+
+```
+.git/refs/remotes/origin/
+```
+
+Example:
+
+```
+origin/main
+origin/feature-login
+```
+
+They are read-only pointers until you push.
+
 
 Summary
 ---------

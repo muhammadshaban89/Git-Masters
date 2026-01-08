@@ -25,33 +25,33 @@ They are lightweight, fast, and central to Git’s workflow.
 
 **1. Safe experimentation**
 
-You can try new ideas without breaking the main codebase.
+- You can try new ideas without breaking the main codebase.
 
 **2. Parallel development**
 
-Multiple developers can work on different features at the same time.
+- Multiple developers can work on different features at the same time.
 
 **3. Clean and organized workflow**
 
-Each feature, bug fix, or release can have its own branch.
+- Each feature, bug fix, or release can have its own branch.
 
 **4. Easy collaboration**
 
-Branches make pull requests possible, which improves code review and teamwork.
+- Branches make pull requests possible, which improves code review and teamwork.
 
 **5. Version isolation**
 
-You can maintain multiple versions of your project (e.g., production, staging, dev).
+- You can maintain multiple versions of your project (e.g., production, staging, dev).
 
 
 
 **Limitations / Challenges of Branches**
 
-Branches are powerful, but they come with some considerations:
+- Branches are powerful, but they come with some considerations:
 
 **1. Merge conflicts**
 
-If two branches modify the same lines, Git needs help resolving conflicts.
+- If two branches modify the same lines, Git needs help resolving conflicts.
 
 **2. Too many branches = messy repo**
 
@@ -59,15 +59,15 @@ If branches are not deleted after merging, the repo becomes cluttered.
 
 **3. Long‑lived branches can drift**
 
-If a branch stays separate for too long, merging becomes harder.
+- If a branch stays separate for too long, merging becomes harder.
 
 **4. Requires discipline**
 
-Teams must follow naming conventions, review processes, and merge strategies.
+- Teams must follow naming conventions, review processes, and merge strategies.
 
 **5. Not suitable for binary-heavy workflows**
 
-Git handles text files best; large binary changes across branches can be painful.
+- Git handles text files best; large binary changes across branches can be painful.
 
 
 **Important Points to Know About Branches**
@@ -77,13 +77,16 @@ Here are the key concepts every developer should understand:
 **1. Branch = pointer to a commit**
 It’s not a copy of your project; it’s just a reference.
 
-### **2. HEAD**
+**2. HEAD**
+
 `HEAD` tells Git which branch you’re currently on.
 
-### **3. Fast-forward merge**
+**3. Fast-forward merge**
+
 If no new commits exist on main, Git simply moves the pointer forward.
 
 **4. Merge vs Rebase**
+
 - **Merge** keeps history as is  
 - **Rebase** rewrites history to make it linear  
 Both are useful depending on workflow.

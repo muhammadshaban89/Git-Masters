@@ -21,7 +21,8 @@ Branches allow developers to:
 
 They are lightweight, fast, and central to Git’s workflow.
 
-**Advantages of Using Branches**
+Advantages of Using Branches
+----------------------------
 
 **1. Safe experimentation**
 

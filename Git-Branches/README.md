@@ -111,6 +111,7 @@ release/v1.2
 - Keeps the repo clean and avoids confusion.
 
 How Branches Work Internally (HEAD, refs, pointers)
+---------------------------------------------------
 
 **Commit Graph (DAG)**
 

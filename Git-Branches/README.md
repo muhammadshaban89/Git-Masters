@@ -10,7 +10,8 @@ What Are Git Branches?
 - You can switch between branches, merge them, delete them, or push them to GitHub.
 
 
-⭐ Why Branches Exist (The Core Idea)
+⭐ Why Branches Exist.
+-----------------------
 
 Branches allow developers to:
 

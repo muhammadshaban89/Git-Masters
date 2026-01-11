@@ -77,6 +77,7 @@ Your changes come back exactly as they were.
 
 
 **When to Use Git Stash**
+
 Use stashing when:
 
 - You want to switch branches but have uncommitted changes  

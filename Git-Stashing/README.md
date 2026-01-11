@@ -115,14 +115,18 @@ This stashes only what you staged.
 **Stash Untracked Files**
 
 By default, Git **does NOT stash untracked files**.  
+
 To include them:
 
-### **Include untracked files**
+- **Include untracked files**
 ```
 git stash push -u
 ```
 
-### **Include untracked + ignored files**
+- In Git, “untracked files” are files in your working directory that Git is not monitoring yet.
+-  They exist on disk, but they are not part of the repository, not staged, and not committed.
+
+**Include untracked + ignored files**
 ```
 git stash push -a
 ```
@@ -135,11 +139,12 @@ Flags:
 **Stash With `--keep-index`**
 This option is extremely useful when you want to test only the staged changes.
 
-### **What it does**
+**What it does**
+
 - Stashes **unstaged** changes  
 - Keeps **staged** changes in your working directory  
 
-### **Command**
+**Command**
 ```
 git stash push --keep-index
 ```

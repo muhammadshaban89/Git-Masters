@@ -167,7 +167,7 @@ Boom — your “lost” work is back.
 
 **Recovering *specific* files after a bad reset**
 
-If you don’t want to reset the whole branch:
+- If you don’t want to reset the whole branch:
 
 ```
 git checkout HEAD@{2} -- path/to/file
@@ -177,7 +177,7 @@ This restores just that file from the old commit.
 
 **Recovering after a bad reset on a shared branch**
 
-If you already pushed the bad reset:
+ - If you already pushed the bad reset:
 
 **Option A — Fix locally, then force push (dangerous)**
 
@@ -194,11 +194,11 @@ Only do this if you’re sure no one else has pulled the bad state.
 git merge 987abcd
 ```
 
-This reintroduces the lost commit without rewriting history.
+- This reintroduces the lost commit without rewriting history.
 
 **Recovering after a bad reset AND you closed the terminal**
 
-Even if you forgot the commit hash, reflog still has it.
+- Even if you forgot the commit hash, reflog still has it.
 
 ```
 git reflog show main
@@ -216,7 +216,7 @@ Git keeps reflog entries for 90 days by default.
 
 **Why reflog is your best friend**
 
-Because even after:
+- Because even after:
 
 - `git reset --hard`
 - `git rebase --abort` gone wrong

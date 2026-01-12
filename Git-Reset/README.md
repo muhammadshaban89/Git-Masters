@@ -77,16 +77,13 @@ git reset --hard HEAD~1
 | Reset branch to remote state | `git reset --hard origin/main` |
 
 ---
-
 **Safety tip for real-world use**
-
-- Since you work with automation and shared repos:
+  - Since you work with automation and shared repos:
   
 **Never use `git reset --hard` on a branch others are using.**  
+  - It rewrites history and will cause conflicts for everyone else.
 
-- It rewrites history and will cause conflicts for everyone else.
-
-
+------------
 **How `git reset` interacts with `reflog`**
 
 - Every time you move **HEAD**, Git records that movement in the **reflog**.

@@ -3,7 +3,7 @@ Git-Reset:
 -----------
 
 - `git reset` is one of those commands that feels simple at first… until you realize it has **three different modes** and each one rewrites history in a different way.
-- Since you’re already deep into Git workflows, let’s give you a clean, practical breakdown you can actually use in real troubleshooting.
+
 
 **What `git reset` *really* does**
 

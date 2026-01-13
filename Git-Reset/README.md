@@ -16,6 +16,7 @@ Think of it as choosing how far back you want to rewind, and how destructive you
 **The Three Modes**
 
 1. **`git reset --soft <commit>`**
+   -------
 - Moves HEAD only  
 - Keeps index and working directory untouched  
 - Your changes stay staged  
@@ -32,6 +33,7 @@ git reset --soft HEAD~1
 git commit -m "Better commit message"
 ```
 2. **`git reset --mixed <commit>`** (default)
+------------------
 
 - Moves HEAD  
 - Updates index  
@@ -51,6 +53,7 @@ git reset
 (Equivalent to `git reset --mixed HEAD`)
 
 3. **`git reset --hard <commit>`**
+   -------
 - Moves HEAD  
 - Updates index  
 - Updates working directory  

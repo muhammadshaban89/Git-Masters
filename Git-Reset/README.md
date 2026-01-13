@@ -86,8 +86,9 @@ git reset --hard HEAD~1
 **Never use `git reset --hard` on a branch others are using.**  
   - It rewrites history and will cause conflicts for everyone else.
 
-------------
-**How `git reset` interacts with `reflog`**
+---
+How `git reset` interacts with `reflog`
+------------------------------------------------
 
 - Every time you move **HEAD**, Git records that movement in the **reflog**.
 

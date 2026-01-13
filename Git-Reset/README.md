@@ -33,7 +33,7 @@ git reset --soft HEAD~1
 git commit -m "Better commit message"
 ```
 2. **`git reset --mixed <commit>`** (default)
-------------------
+   ------------------
 
 - Moves HEAD  
 - Updates index  
